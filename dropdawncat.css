@@ -1,0 +1,91 @@
+/*csslint fallback-colors: false, order-alphabetical: false, box-model: false*/
+
+body { 
+    background: rgb(72, 83, 112);
+    color:#e9e4ff;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.main-menu-container {
+  /* a text-align center csak inline elemeknél működik, de a
+  a main-menu-item egy inline elem lesz.
+  a text align property le öröklődik egészen a main-menu-item-ig */
+    
+  text-align: center;
+  margin: 0px auto 0px;
+ padding-top: 50px;
+    padding-bottom: 0px;
+  border-bottom: 3px solid 
+    #68d2c3;
+    height: 60px;
+    cursor: pointer;
+}
+
+.main-menu{
+    list-style: none;
+   
+}
+.main-menu-item{
+    background: rgb(72, 83, 112);
+    color:#e9e4ff;
+    
+    padding-bottom:0px;
+    padding-top: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-top: 0px;
+     
+}
+
+main {
+  width: 580px;
+  line-height: 1.6;
+}
+
+.submenu{
+    list-style: none;
+    display: none;
+    position: absolute;
+}
+
+.menu-item a:hover{
+    
+}
+.submenu a:hover, .submenu-items {
+    display: block;
+    background-color: rgb(72, 83, 112);
+}
+
+.submenu-item a:hover{
+    background: rgba(41,47,48,.7);
+    color: white;
+}
+
+
+
+.main-content {
+    width: 800px;
+    margin: 0 auto;
+}
+
+
+.company-image {
+    float: right;
+}
+
+.header{
+    width: 400px;
+    text-align: left;
+}
+
+
+.main-menu-item a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
