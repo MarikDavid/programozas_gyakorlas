@@ -1,0 +1,122 @@
+/*csslint fallback-colors: false, order-alphabetical: false, box-model: false*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.header-container {
+    /* 100% lesz a szélessége: */
+    background-size: 100%;
+    position: relative;
+    /* ennek az elemnek a magassága a böngésző szélességének 40%-a (verticalWidth) */
+    height: /*500px;*/ 40vw;
+    background: url(./banner.jpg);
+    position:relative;
+    background-repeat: no-repeat;
+}
+header {
+    width: 70%;
+    font-weight: 300;
+    
+}
+
+.company-intro
+{
+    color:white;
+    width: 50%;
+    background: rgba(40,70,66, 0.4);
+    text-shadow:2px 2px 3px rgba(0,0,0, 0.65);
+    position:absolute;
+    right:10vw;
+    top:50px;
+    padding:20px;
+}
+
+.main-container
+{
+    height:530px;
+    width:1000px;
+    margin: 0 auto;
+    margin: 70px 350px;
+}
+
+.company-image
+{
+    float:right;
+    width: 400px;
+    height: 440px;
+}
+
+footer
+{
+    background-color: #13302e;
+    text-align:center;
+    line-height:100px;
+    height:100px;
+    margin-bottom: 30px;
+    color:white;
+}
+
+.lead
+{
+    font-weight: 800;
+    font-size: 16px;
+    width: 600px;
+}
+
+.szoveg
+{
+    height: 530px;
+    width:500px;
+}
+
+.h1_2
+{
+    font-size:45px;
+}
+
+.h1_1
+{
+    margin-top:0;
+}
+
+.p1
+{
+    font-size: 35px;
+}
+
+.p2
+{
+    line-height:1.9;
+}
+
+.menu
+{
+    margin:0;
+    list-style-type: none;
+    padding:0;
+    color:white;
+    position:relative;
+    left:350px;
+    width: 150px;
+    height:260px;
+}
+
+.menu-item
+{
+    border-left: 5px solid rgba(129,225,255, 0.63);
+    background-color: rgba(63,117,134, 0.3);
+    width:145px;
+    height: 52px;
+    text-align:center;
+    line-height: 52px;
+    transition: all 0.2s ease-in-out;
+}
+
+.menu-item:hover
+{
+    background-color:#4cc3c3;
+    padding:5px;
+}
